@@ -3,7 +3,7 @@ def find_first_and_last(nums, target):
     left, right = 0, len(nums) - 1
 
     while left <= right:
-        mid = left + (right - left) // 2  # Use integer division here
+        mid = left + (right - left) // 2  
         if nums[mid] == target:
             result[0] = mid
             result[1] = mid
